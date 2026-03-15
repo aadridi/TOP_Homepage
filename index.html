@@ -13,48 +13,66 @@
 	<body>
 		<header>
 			<nav>
-				<ul>
-					<li><a href="index.html"></a>Home</li>
-					<li><a href="#"></a>About Me</li>
-					<li><a href="#"></a>Contact Me</li>
+				<ul class="nav-list">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact Me</a></li>
 				</ul>
 			</nav>
-			<div class="header-picture">
-				<img class="header-picture" src="./img/header-img.jpg" alt="profile picture of a woman smiling" />
-				<h1>Ashley Williams</h1>
-			</div>
-			<div class="header-text">
-				<h2>About Me</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
-				<p>GitHub | LinkedIn | X</p>
-			</div>
+			<section class="header-hero">
+				<div class="header-picture">
+					<img class="header-img" src="./img/header-img.jpg" alt="profile picture of a woman smiling" />
+					<h1>Ashley Williams</h1>
+				</div>
+				<div class="header-text">
+					<h2 class="header-text-title">About me</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+					<p class="header-text-footer">GitHub | LinkedIn | X</p>
+				</div>
+			</section>
 		</header>
 		<main class="main-content">
-			<h2 class="main-title">My Work</h2>
-			<div class="card-item">
-				<div class="card-header">
-					<h3>screenshot of project</h3>
+			<section class="work">
+				<h2 class="main-title">My work</h2>
+				<div class="cards">
+					<article class="card">
+						<div class="card-header">
+							<h3>screenshot of project</h3>
+						</div>
+						<div class="card-description">
+							<div class="card-description-title">
+								<h4>Project Name</h4>
+								<p>GitHub | Link</p>
+							</div>
+							<p class="card-description-text">Short description of the project. Just a couple sentences will do.</p>
+						</div>
+					</article>
+					<article class="card">
+						<div class="card-header">
+							<h3>screenshot of project</h3>
+						</div>
+						<div class="card-description">
+							<div class="card-description-title">
+								<h4>Project Name</h4>
+								<p>GitHub | Link</p>
+							</div>
+							<p class="card-description-text">Short description of the project. Just a couple sentences will do.</p>
+						</div>
+					</article>
+					<article class="card">
+						<div class="card-header">
+							<h3>screenshot of project</h3>
+						</div>
+						<div class="card-description">
+							<div class="card-description-title">
+								<h4>Project Name</h4>
+								<p>GitHub | Link</p>
+							</div>
+							<p class="card-description-text">Short description of the project. Just a couple sentences will do.</p>
+						</div>
+					</article>
 				</div>
-				<div class="card-description">
-					<div class="card-description-title">
-						<h4>Project Name</h4>
-						<p>GitHub | Link</p>
-					</div>
-					<p class="card-description-text">Short description of the project. Just a couple sentences will do.</p>
-				</div>
-			</div>
-			<div class="card-item">
-				<div class="card-header">
-					<h3>screenshot of project</h3>
-				</div>
-				<div class="card-description">
-					<div class="card-description-title">
-						<h4>Project Name</h4>
-						<p>GitHub | Link</p>
-					</div>
-					<p class="card-description-text">Short description of the project. Just a couple sentences will do.</p>
-				</div>
-			</div>
+			</section>
 		</main>
 		<footer>
 			<div class="footer-text">
@@ -62,17 +80,17 @@
 				<p>Please get in touch if you think our work could be mutually beneficial!</p>
 				<p>1234 Random Road Random Town, California 12345</p>
 				<div class="footer-phone">
-					<p>Phone</p>
+					<p>Phone:</p>
 					<p>555-555-5555</p>
 				</div>
 				<div class="footer-mail">
-					<p>Mail</p>
+					<p>Mail:</p>
 					<p>ashleywilliams.is.not.real@gmail.com</p>
 				</div>
 				<p>GitHub | LinkedIn | X</p>
 			</div>
 			<div class="footer-picture">
-				<img src="" alt="" srcset="" />
+				<img src="./img/footer-img.jpg" alt="a picture of a woman in front of her laptop" />
 			</div>
 		</footer>
 	</body>
